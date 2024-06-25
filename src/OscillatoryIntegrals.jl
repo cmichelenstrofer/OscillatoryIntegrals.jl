@@ -2,8 +2,8 @@
 module OscillatoryIntegrals
 using Base, ApproxFun, LinearAlgebra, SpecialFunctions
 
-import ApproxFun: domain, evaluate, spacescompatible,
-					SpaceOperator, ConstantSpace
+import ApproxFun: domain, evaluate
+import ApproxFunBase: spacescompatible
 
 include("Bessel.jl")
 
